@@ -1,7 +1,7 @@
 import initTilt from './src/js/tilt';
 import initSr from './src/js/sr';
 
-import 'src/style/main.scss';
+import '/src/style/main.scss';
 
 $('a[href^="#"]').on('click', function(event) {
   var target = $(this.getAttribute('href'));
