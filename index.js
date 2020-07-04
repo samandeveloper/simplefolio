@@ -4,7 +4,7 @@ import initSr from './src/js/sr';
 import './src/style/main.scss';
 
 $('a[href^="#"]').on('click', function(event) {
-  var target = $(this.getAttribute('https://cdnjs.cloudflare.com'));
+  var target = $(this.getAttribute('href'));
   if (target.length) {
     event.preventDefault();
     $('html, body')
