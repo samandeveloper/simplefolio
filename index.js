@@ -1,10 +1,10 @@
 import initTilt from './src/js/tilt';
 import initSr from './src/js/sr';
 
-import './simplefolio/src/style/main.scss';
+import './src/style/main.scss';
 
 $('a[href^="#"]').on('click', function(event) {
-  var target = $(this.getAttribute('href'));
+  var target = $(this.getAttribute('https://cdnjs.cloudflare.com'));
   if (target.length) {
     event.preventDefault();
     $('html, body')
