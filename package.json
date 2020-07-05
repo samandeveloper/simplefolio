@@ -4,14 +4,14 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "start": "index.js",
     "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
   "author": "Jacobo Martinez",
   "license": "ISC",
   "devDependencies": {
-    "clean-webpack-plugin": "^3.0.0",
+    "clean-webpack-plugin": "index.js^3.0.0",
     "css-loader": "^3.4.2",
     "file-loader": "^6.0.0",
     "html-loader": "^1.0.0",
