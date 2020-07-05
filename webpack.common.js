@@ -2,7 +2,7 @@ const Webpack = require("webpack");
 module.exports = {
   entry: {
     vendor: "./src/vendor.js",
-    main: "./index.html"
+    main: "./index.js"
   },
   module: {
     rules: [
